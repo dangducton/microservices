@@ -1,0 +1,18 @@
+server:
+  port: 6002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+
+ribbon:
+  eureka:
+    enabled: true
+spring:
+  application:
+    name: payment
+logging:
+  file: C:/Users/dangducton/Desktop/logs/elk-stack.log
