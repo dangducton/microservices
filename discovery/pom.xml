@@ -8,10 +8,10 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dangducton</groupId>
-	<artifactId>dangducton</artifactId>
+	<groupId>com.discovery</groupId>
+	<artifactId>discovery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dangducton</name>
+	<name>discovery</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
